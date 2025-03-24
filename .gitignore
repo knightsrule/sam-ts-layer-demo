@@ -1,0 +1,43 @@
+# Node dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# TypeScript build outputs
+dist/
+*.js
+*.js.map
+*.d.ts
+
+# AWS SAM build artifacts
+.aws-sam/
+samconfig.toml
+.aws-sam-iact/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+env.json
+*.pem
+*.key
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# OS files
+Thumbs.db
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log 
